@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&display=swap');
+
+html,
+body {
+	display: flex;
+	justify-content: center;
+	font-family: 'Fraunces', serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100%;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.content-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 1rem;
+	gap: 1rem;
+	min-width: 1024px;
+    max-width: 1024px;
+}
+
+.results {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.result {
+	font-size: 5rem;
+	font-weight: 600;
+}
+
+.results {
+	background: -webkit-linear-gradient(#FF0061, #E1FF00, #00FF9E, #1E00FF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	min-height: 320px;
+}
+
+.participants {
+	font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+	font-size: .8em !important;
+	text-indent: initial;
+	padding: 1rem;
+	background-color: #fef4e6;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgb(248 148 6 / 25%);
+	width: 100%;
+    text-align: center;
+}
+
+/* CSS */
+.start-raffle {
+	align-items: center;
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: .25rem;
+	box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, 0.85);
+	cursor: pointer;
+	display: inline-flex;
+	font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	justify-content: center;
+	line-height: 1.25;
+	margin: 0;
+	min-height: 3rem;
+	padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+	position: relative;
+	text-decoration: none;
+	transition: all 250ms;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: baseline;
+	width: 25%;
+}
+
+.start-raffle:hover,
+.start-raffle:focus {
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+	color: rgba(0, 0, 0, 0.65);
+}
+
+.start-raffle:hover {
+	transform: translateY(-1px);
+}
+
+.start-raffle:active {
+	background-color: #F0F0F1;
+	border-color: rgba(0, 0, 0, 0.15);
+	box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+	color: rgba(0, 0, 0, 0.65);
+	transform: translateY(0);
+}
